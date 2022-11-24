@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("images/Background_Photo_Compressed.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.main{
+    height: 1000px;
+}
