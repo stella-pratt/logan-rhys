@@ -8,7 +8,7 @@ window.onscroll = function() {
         transparency = 1
     }
     let shader = document.querySelector(".shade")
-    shader.style.backgroundColor = "rgba(0,0,0," + transparency + ")"
+    shader.style.backgroundColor = "rgba(20,20,20," + transparency + ")"
 
 
     let text = document.querySelector(".header_text")

@@ -4,6 +4,9 @@
     overflow-x: hidden;
 }
 
+body{
+    background-color: #141414;
+}
 
 .header{
     height: 100vh;
@@ -14,7 +17,7 @@
 .header_text{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 10vw;
-    text-shadow: 0.8vw 0.8vw 1vw #1b1b1b;
+    text-shadow: 0.8vw 0.8vw 1vw #141414;
     color: #fafffa;
     position: absolute;
     bottom: 3vh;
@@ -27,10 +30,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(27, 27, 27, 0);
+    background-color: rgba(20, 20, 20, 0);
 }
+.piano_scroll{
+    height: 40vh;
+    width: 100%;
+    margin: 5vh 0;
+}
+
+
 
 .main{
     height: 1000px;
-    background-color: #fafffa;
 }
