@@ -17,7 +17,18 @@ window.onscroll = function() {
 
 
 
+    let piano = document.querySelector(".piano")
+    piano.style.transform = "translateX(" + (-2*document.documentElement.scrollTop) + "px)"
 
+    let piano_div = document.querySelector(".piano_scroll")
+    let distance = piano_div.getBoundingClientRect().top
+    let move = (distance + window.innerHeight/100*20)/-window.innerHeight + 0.5
 
+    let ab = -100/343
+    let hb = 0
+    let kb = 0.1
 
+    let position = ab*(move-hb)**3 + kb
+    piano.style.transform = "translateX(" + (1-position*10000) + "px)"
 }
+
